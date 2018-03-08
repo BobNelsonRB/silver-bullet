@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Communcation",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Communication.Controllers", "src\Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj", "{27BA7857-9367-4DD8-B26B-73C95B15F60B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Data.Common", "src\Microservice.Data.Common\Microservice.Data.Common.csproj", "{158ECCA9-01F2-429C-849A-68D5E3A35B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Data.Common.Test", "test\Microservice.Data.Common.Test\Microservice.Data.Common.Test.csproj", "{1B796F98-B60D-43F1-B6B4-F310B38312CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{158ECCA9-01F2-429C-849A-68D5E3A35B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{158ECCA9-01F2-429C-849A-68D5E3A35B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{158ECCA9-01F2-429C-849A-68D5E3A35B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{158ECCA9-01F2-429C-849A-68D5E3A35B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B796F98-B60D-43F1-B6B4-F310B38312CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B796F98-B60D-43F1-B6B4-F310B38312CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B796F98-B60D-43F1-B6B4-F310B38312CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B796F98-B60D-43F1-B6B4-F310B38312CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +47,8 @@ Global
 		{CDCFC10E-AF99-4977-B2DB-08CFD99438E1} = {545155EB-9E57-4391-97E7-9F5209B24BAA}
 		{1E05E494-E812-469E-9294-D93E8862A2CC} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
 		{27BA7857-9367-4DD8-B26B-73C95B15F60B} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
+		{158ECCA9-01F2-429C-849A-68D5E3A35B69} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
+		{1B796F98-B60D-43F1-B6B4-F310B38312CC} = {ECAB93B4-2D2C-4CB6-B708-C6FF61AB16AF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE726A48-CCD4-493D-BF76-B68FC2AF70D5}
