@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{545155EB-9E57-4391-97E7-9F5209B24BAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{ECAB93B4-2D2C-4CB6-B708-C6FF61AB16AF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{CDCFC10E-AF99-4977-B2DB-08CFD99438E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Communcation", "src\Microservice.Communcation\Microservice.Communcation.csproj", "{1E05E494-E812-469E-9294-D93E8862A2CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Communication.Controllers", "Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj", "{9849289E-280C-4320-8E96-E82F63462A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E05E494-E812-469E-9294-D93E8862A2CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E05E494-E812-469E-9294-D93E8862A2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E05E494-E812-469E-9294-D93E8862A2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E05E494-E812-469E-9294-D93E8862A2CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9849289E-280C-4320-8E96-E82F63462A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9849289E-280C-4320-8E96-E82F63462A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9849289E-280C-4320-8E96-E82F63462A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9849289E-280C-4320-8E96-E82F63462A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CDCFC10E-AF99-4977-B2DB-08CFD99438E1} = {545155EB-9E57-4391-97E7-9F5209B24BAA}
+		{1E05E494-E812-469E-9294-D93E8862A2CC} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
+		{9849289E-280C-4320-8E96-E82F63462A08} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE726A48-CCD4-493D-BF76-B68FC2AF70D5}
+	EndGlobalSection
+EndGlobal
