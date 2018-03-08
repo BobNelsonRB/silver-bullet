@@ -9,6 +9,9 @@
 *.userosscache
 *.sln.docstates
 
+# Appveyor files
+*.yml
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
