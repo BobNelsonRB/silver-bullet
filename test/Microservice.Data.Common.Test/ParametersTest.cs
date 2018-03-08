@@ -110,6 +110,7 @@ namespace Microservices.Data.Common.Test
             // Assert
             Assert.Equal(true, hasStrategy);
             Assert.Equal(testValue, result);
+            Assert.Equal(true,false);
         }
 
         #endregion
