@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj" />
+    <ProjectReference Include="..\Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj" />
   </ItemGroup>
 
 </Project>

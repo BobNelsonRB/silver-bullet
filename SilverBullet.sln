@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "api", "api", "{CDCFC10E-AF9
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Communcation", "src\Microservice.Communcation\Microservice.Communcation.csproj", "{1E05E494-E812-469E-9294-D93E8862A2CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice.Communication.Controllers", "Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj", "{9849289E-280C-4320-8E96-E82F63462A08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservice.Communication.Controllers", "src\Microservice.Communication.Controllers\Microservice.Communication.Controllers.csproj", "{27BA7857-9367-4DD8-B26B-73C95B15F60B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{1E05E494-E812-469E-9294-D93E8862A2CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E05E494-E812-469E-9294-D93E8862A2CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E05E494-E812-469E-9294-D93E8862A2CC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9849289E-280C-4320-8E96-E82F63462A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9849289E-280C-4320-8E96-E82F63462A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9849289E-280C-4320-8E96-E82F63462A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9849289E-280C-4320-8E96-E82F63462A08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27BA7857-9367-4DD8-B26B-73C95B15F60B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -34,7 +34,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{CDCFC10E-AF99-4977-B2DB-08CFD99438E1} = {545155EB-9E57-4391-97E7-9F5209B24BAA}
 		{1E05E494-E812-469E-9294-D93E8862A2CC} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
-		{9849289E-280C-4320-8E96-E82F63462A08} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
+		{27BA7857-9367-4DD8-B26B-73C95B15F60B} = {CDCFC10E-AF99-4977-B2DB-08CFD99438E1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE726A48-CCD4-493D-BF76-B68FC2AF70D5}
